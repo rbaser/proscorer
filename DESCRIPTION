@@ -1,0 +1,20 @@
+Package: proscorer
+Title: Scores commonly used patient-reported outcome (PRO) measures
+Version: 0.1
+Authors@R: as.person(c(
+    "Ray Baser <baserr@mskcc.org> [aut,cre]",
+    "Ayelet Greenbert <greenberg613@gmail.com> [ctb]"
+    ))
+Description: Provides functions to score commonly used patient-reported outcome
+    (PRO) and quality of life (QOL) measures, including most of the Functional
+    Assessment of Cancer Therapy (FACT) and Functional Assessment of Chronic
+    Illness Therapy (FACIT) family of questionnaires.  The goal of this package
+    is to serve as a free repository for accurate, reliable scoring algorithms
+    for as many PRO and QOL instruments as possible, ultimately helping to
+    improve the quality and reproducibility of PRO and QOL research.
+Depends: 
+    R (>= 3.1.1)
+License: GPL-3
+LazyData: true
+Suggests: knitr
+VignetteBuilder: knitr
